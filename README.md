@@ -103,6 +103,8 @@ Features not yet supported but planned for the future:
 - **Named ranges** — defining and referencing named ranges
 - **Multi-sheet operations** — copying/moving data across sheets, add/delete sheets
 - **Bulk write** — writing multiple cells in a single command (e.g., from CSV)
+- **Comments / Notes** — adding, reading, and removing cell comments and threads
+- **Hyperlinks** — inserting and managing clickable links in cells
 - **Undo / History** — tracking and reverting changes
 
 ## License
