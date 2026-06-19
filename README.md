@@ -88,6 +88,23 @@ Values are auto-detected:
 - Formulas (`=SUM(A1:A3)`) are stored as formulas
 - Everything else is stored as text
 
+## Roadmap
+
+Features not yet supported but planned for the future:
+
+- **Bold / Italic / Underline / Strikethrough** — cell text styling
+- **Font family and size** — changing fonts per cell or range
+- **Text alignment** — horizontal (left, center, right) and vertical alignment
+- **Number formatting** — currency, percentages, date formats, custom patterns
+- **Merge cells** — merging and unmerging cell ranges
+- **Row height** — setting row heights manually or auto-fitting
+- **Conditional formatting** — color scales, data bars, icon sets
+- **Data validation** — dropdowns, input restrictions
+- **Named ranges** — defining and referencing named ranges
+- **Multi-sheet operations** — copying/moving data across sheets, add/delete sheets
+- **Bulk write** — writing multiple cells in a single command (e.g., from CSV)
+- **Undo / History** — tracking and reverting changes
+
 ## License
 
 MIT
