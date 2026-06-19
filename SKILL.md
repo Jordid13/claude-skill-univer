@@ -27,6 +27,24 @@ python3 ${CLAUDE_SKILL_DIR}/scripts/sheet_tool.py <file> clear <cell>
 
 # List all sheets in the file
 python3 ${CLAUDE_SKILL_DIR}/scripts/sheet_tool.py <file> sheets
+
+# Auto-fit column widths to content
+python3 ${CLAUDE_SKILL_DIR}/scripts/sheet_tool.py <file> auto-fit
+
+# Set a column's width in pixels
+python3 ${CLAUDE_SKILL_DIR}/scripts/sheet_tool.py <file> set-col-width <col> <px>
+
+# Freeze top N rows (0 to unfreeze)
+python3 ${CLAUDE_SKILL_DIR}/scripts/sheet_tool.py <file> freeze <rows>
+
+# Set background color on a cell or range
+python3 ${CLAUDE_SKILL_DIR}/scripts/sheet_tool.py <file> bg-color <cell|range> <hex>
+
+# Set text color on a cell or range
+python3 ${CLAUDE_SKILL_DIR}/scripts/sheet_tool.py <file> text-color <cell|range> <hex>
+
+# Set borders on a cell or range
+python3 ${CLAUDE_SKILL_DIR}/scripts/sheet_tool.py <file> border <cell|range> <hex> [style] [sides]
 ```
 
 ### Optional flags
